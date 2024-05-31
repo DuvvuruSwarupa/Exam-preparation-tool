@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Exam System</h1>
+        <div id="teacher-section">
+            <h2>Teacher Section</h2>
+            <form id="upload-form">
+                <input type="file" id="file" name="file" accept=".pdf, .docx">
+                <button type="submit">Upload</button>
+            </form>
+            <div id="questions-container"></div>
+        </div>
+        <div id="student-section">
+            <h2>Student Section</h2>
+            <div id="student-questions-container"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
